@@ -12,7 +12,7 @@ ReactDOM.render(
    {Sdata.map((val)=>{
  return (
   <Card
- imgsrc= {val.sname}
+ imgsrc= {val.imgsrc}
  title={val.title}
  sname={val.sname}
  links={val.links}
